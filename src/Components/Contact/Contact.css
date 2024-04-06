@@ -1,0 +1,55 @@
+.contact-us {
+  margin: 80px auto;
+  max-width: 90%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.contact-col {
+  flex-basis: 48%;
+  box-shadow: 0 0 20px rgba(170, 11, 11, 0.09);
+  color: rgb(245, 235, 235);
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.invite {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.email {
+  width: 25px;
+  height: 25px;
+}
+
+.contact-col p {
+  max-width: 450px;
+  line-height: 1.5;
+  color: white;
+  font-size: 18px;
+}
+
+.contact-col ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.contact-us form input,
+.contact-us form textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: none;
+  border-radius: 10px;
+}

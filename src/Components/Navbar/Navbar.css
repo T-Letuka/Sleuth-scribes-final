@@ -1,0 +1,56 @@
+.logo {
+  width: 75px;
+}
+
+.nav-bar {
+  width: 100%;
+  background: #edf2f4;
+  color: black;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+.nav-list li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact-me {
+  padding: 10px 10px 10px;
+  border-radius: 25px;
+  background-color: #2b2d42;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+/*----Media-query*/
+@media (max-width: 840px) {
+  nav {
+    padding: 15px 0;
+  }
+
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2b2d42;
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px 40px;
+  }
+}

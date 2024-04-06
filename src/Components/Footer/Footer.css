@@ -1,0 +1,10 @@
+.outro {
+  display: flex;
+  margin-top: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-outro {
+  color: whitesmoke;
+}

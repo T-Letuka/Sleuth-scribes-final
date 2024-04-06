@@ -1,0 +1,14 @@
+ <Navbar />
+      <Hero />
+      <div className="container">
+        <Title
+          subTitle="Packages"
+          title="Join us as we unravel mysteries together."
+        />
+        <Home />
+        <About />
+        <Title subTitle="Cases" title="Let the solving begin!." />
+        <Cases />
+        <Title subTitle="Contact us" title="Get In Touch!." />
+        <Contact />
+      </div>
