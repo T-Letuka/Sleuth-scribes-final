@@ -15,7 +15,7 @@
   justify-content: space-between;
   z-index: 10;
 }
-.nav-list li {
+#nav-list li {
   list-style: none;
   display: inline-block;
   margin: 20px 50px;
@@ -34,23 +34,36 @@
 
 /*----Media-query*/
 @media (max-width: 840px) {
-  nav {
+  .nav-bar {
     padding: 15px 0;
   }
 
-  nav ul {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #2b2d42;
-    z-index: -1;
-    width: 200px;
-    padding-top: 70px;
-    transition: 0.5s;
+  #nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: #edf2f4;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    text-align: center;
   }
-  nav ul li {
+  #nav-list.open {
+    display: flex;
+  }
+  #nav-list li {
+    margin: 15px 0;
+  }
+  .menu-toggle {
     display: block;
-    margin: 25px 40px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .menu-toggle:focus {
+    outline: none;
   }
 }
