@@ -27,7 +27,7 @@
   padding: 20px;
 }
 .slide {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(247, 244, 244, 0.5);
   padding: 40px;
   border-radius: 10px;
   color: #8d99ae;
@@ -53,4 +53,12 @@ h3 {
 .back-button {
   right: auto;
   left: 0;
+}
+.case-btn {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 15px;
+  color: white;
 }

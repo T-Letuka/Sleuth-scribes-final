@@ -1,21 +1,16 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Home/Home";
-import Hero from "./Components/Hero/Hero";
-import About from "./Components/About/About";
-import Cases from "./Components/Cases/Cases";
-import Contact from "./Components/Contact/Contact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Caseone from "./Components/Caseone/Caseone";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Home />
-      <About />
-      <Cases />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Caseone" element={<Caseone />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

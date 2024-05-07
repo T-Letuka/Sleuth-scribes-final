@@ -4,10 +4,10 @@
 
 .nav-bar {
   width: 100%;
-  background: #edf2f4;
+  background: whitesmoke;
   color: black;
   padding: 4px 0;
-  position: fixed;
+
   top: 0;
   left: 0;
   display: flex;
